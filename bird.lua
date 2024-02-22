@@ -1,7 +1,6 @@
 Bird = {}
 
 function Bird:load()
-    --self.birdSprite = love.graphics.newImage("sprites/yellowbird-midflap.png")
     self.birdSprite = love.graphics.newImage("sprites/spritesheet.png")
     self.birdWidth = self.birdSprite:getWidth()
     self.posX = love.graphics.getWidth() / 2 - self.birdSprite:getWidth() / 6
