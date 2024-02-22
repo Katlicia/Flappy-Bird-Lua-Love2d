@@ -41,8 +41,6 @@ function scoreLoad()
 end
 
 function drawMenu()
-    --Bird.posX = love.graphics.getWidth() / 2 - Bird.birdSprite:getWidth() / 6
-    --Bird.posY = love.graphics.getHeight() / 2 - Bird.birdSprite:getHeight() / 6
     love.graphics.draw(backgroundSprite, 0, 0)
     love.graphics.draw(baseSprite, 0, love.graphics.getHeight() - baseSprite:getHeight())
     love.graphics.draw(logo, love.graphics.getWidth() / 2 - logo:getWidth() / 1.6, logo:getHeight(), 0, 1.3, 1.3)
